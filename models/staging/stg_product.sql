@@ -4,4 +4,4 @@ SELECT
     product_category,
     product_cost,
     product_price
-FROM Project_02.public.products
+FROM Assignment_02.DBT_NYADAV.products

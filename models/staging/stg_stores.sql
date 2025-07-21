@@ -3,5 +3,5 @@ SELECT
     store_name,
     store_city,
     store_location,
-    store_open_date::DATE
-FROM Project_02.public.stores
+    TRY_CAST(store_open_date AS DATE) as store_open_date
+FROM ASSIGNMENT_02.DBT_NYADAV.stores

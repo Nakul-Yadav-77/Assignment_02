@@ -4,4 +4,4 @@ SELECT
     store_id,
     product_id,
     units
-FROM Project_02.public.sales
+FROM Assignment_02.DBT_NYADAV.sales
