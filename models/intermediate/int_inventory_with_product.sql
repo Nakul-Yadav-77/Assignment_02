@@ -5,4 +5,4 @@ SELECT
     p.Product_name,
     p.Product_category
 FROM {{ ref('stg_inventory') }} i
-JOIN {{ ref('stg_product') }} p ON i.Product_id = p.Product_id
+JOIN {{ ref('int_product') }} p ON i.Product_id = p.Product_id

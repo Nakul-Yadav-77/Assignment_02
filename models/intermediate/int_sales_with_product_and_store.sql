@@ -13,5 +13,5 @@ SELECT
     st.Store_location,
     st.Store_open_date
 FROM {{ ref('stg_sales') }} s
-JOIN {{ ref('stg_product') }} p ON s.Product_id = p.Product_id
+JOIN {{ ref('int_product') }} p ON s.Product_id = p.Product_id
 JOIN {{ ref('stg_stores') }} st ON s.store_id = st.Store_id
