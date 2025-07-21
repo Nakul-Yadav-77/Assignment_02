@@ -1,2 +1,2 @@
 SELECT *
-FROM Project_02.public.data_dictionary
+FROM Assignment_02.DBT_NYADAV.data_dictionary
