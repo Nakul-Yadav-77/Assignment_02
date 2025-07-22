@@ -1,7 +1,7 @@
 #Maven Toys DBT Project
 
 This project uses the Maven Toys dataset with Snowflake and dbt, 
-following the Medallion architecture — Bronze (staging), Silver (cleansed), and Gold (marts).
+following the Medallion architecture — Bronze (staging), Silver (intermidiate), and Gold (marts).
 
 ---
 
